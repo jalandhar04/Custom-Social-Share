@@ -1,0 +1,68 @@
+/* Sidebar Social Share CSS */
+.fixed-social {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    box-shadow: -5px 4px 10px 0 rgba(0, 0, 0, .2);
+    width: 50px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 8px 0 0 8px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+}
+
+span#share-icon {
+    display: flex;
+}
+
+.fixed-social svg {
+    color: white;
+    overflow: auto;
+}
+
+.custom-social-sharing {
+    display: none;
+    position: fixed;
+    right: 60px;
+    top: 210px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 99;
+}
+
+.custom-social-sharing ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-social-sharing li {
+    margin-bottom: 10px;
+}
+
+.custom-social-sharing a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-share-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.custom-social-sharing span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 0 3px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
